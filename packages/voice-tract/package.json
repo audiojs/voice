@@ -1,0 +1,20 @@
+{
+  "name": "@audio/voice-tract",
+  "version": "0.0.0",
+  "description": "Articulatory vocal-tract synthesis — Kelly-Lochbaum waveguide (Pink Trombone class)",
+  "type": "module",
+  "sideEffects": false,
+  "private": true,
+  "keywords": [
+    "audio",
+    "dsp",
+    "voice",
+    "synthesis",
+    "tract"
+  ],
+  "license": "MIT",
+  "author": "Dmitry Iv. <dfcreative@gmail.com>",
+  "engines": {
+    "node": ">=18"
+  }
+}

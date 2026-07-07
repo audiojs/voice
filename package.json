@@ -1,0 +1,23 @@
+{
+  "name": "@audio/voice",
+  "version": "0.0.0",
+  "type": "module",
+  "sideEffects": false,
+  "description": "Voice synthesis — umbrella for @audio/voice-* atoms (vocal tract, voder, glottal source)",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "keywords": [
+    "audio",
+    "dsp",
+    "voice",
+    "speech-synthesis",
+    "vocal-tract"
+  ],
+  "license": "MIT",
+  "author": "Dmitry Iv. <dfcreative@gmail.com>",
+  "engines": {
+    "node": ">=18"
+  }
+}
