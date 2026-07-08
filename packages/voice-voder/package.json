@@ -1,10 +1,9 @@
 {
   "name": "@audio/voice-voder",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Voder — manual formant/channel speech synthesis (Dudley 1939 recreation)",
   "type": "module",
   "sideEffects": false,
-  "private": true,
   "keywords": [
     "audio",
     "dsp",
@@ -16,5 +15,16 @@
   "author": "Dmitry Iv. <dfcreative@gmail.com>",
   "engines": {
     "node": ">=18"
+  },
+  "main": "voder.js",
+  "exports": {
+    ".": "./voder.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "voder.js"
+  ],
+  "publishConfig": {
+    "access": "public"
   }
 }
