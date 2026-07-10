@@ -1,6 +1,6 @@
 {
   "name": "@audio/voice-tract",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Articulatory vocal-tract synthesis — Kelly-Lochbaum waveguide (Pink Trombone class)",
   "type": "module",
   "sideEffects": false,

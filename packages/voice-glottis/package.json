@@ -1,6 +1,6 @@
 {
   "name": "@audio/voice-glottis",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Glottal source models — LF model, Rosenberg pulse (excitation for tract/formant synthesis)",
   "type": "module",
   "sideEffects": false,

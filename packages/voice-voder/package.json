@@ -1,6 +1,6 @@
 {
   "name": "@audio/voice-voder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Voder — manual formant/channel speech synthesis (Dudley 1939 recreation)",
   "type": "module",
   "sideEffects": false,
