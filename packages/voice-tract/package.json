@@ -1,6 +1,6 @@
 {
   "name": "@audio/voice-tract",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Articulatory vocal-tract synthesis — Kelly-Lochbaum waveguide (Pink Trombone class)",
   "type": "module",
   "sideEffects": false,
@@ -22,8 +22,10 @@
     "./package.json": "./package.json"
   },
   "files": [
-    "tract.js"
+    "tract.js",
+    "tract.d.ts"
   ],
+  "types": "tract.d.ts",
   "publishConfig": {
     "access": "public"
   },
@@ -31,5 +33,6 @@
     "type": "git",
     "url": "git+https://github.com/audiojs/voice.git",
     "directory": "packages/voice-tract"
-  }
+  },
+  "funding": "https://github.com/sponsors/audiojs"
 }

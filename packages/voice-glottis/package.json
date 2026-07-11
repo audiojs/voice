@@ -1,6 +1,6 @@
 {
   "name": "@audio/voice-glottis",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Glottal source models — LF model, Rosenberg pulse (excitation for tract/formant synthesis)",
   "type": "module",
   "sideEffects": false,
@@ -22,8 +22,10 @@
     "./package.json": "./package.json"
   },
   "files": [
-    "glottis.js"
+    "glottis.js",
+    "glottis.d.ts"
   ],
+  "types": "glottis.d.ts",
   "publishConfig": {
     "access": "public"
   },
@@ -31,5 +33,6 @@
     "type": "git",
     "url": "git+https://github.com/audiojs/voice.git",
     "directory": "packages/voice-glottis"
-  }
+  },
+  "funding": "https://github.com/sponsors/audiojs"
 }

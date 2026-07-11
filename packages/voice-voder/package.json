@@ -1,6 +1,6 @@
 {
   "name": "@audio/voice-voder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Voder — manual formant/channel speech synthesis (Dudley 1939 recreation)",
   "type": "module",
   "sideEffects": false,
@@ -22,8 +22,10 @@
     "./package.json": "./package.json"
   },
   "files": [
-    "voder.js"
+    "voder.js",
+    "voder.d.ts"
   ],
+  "types": "voder.d.ts",
   "publishConfig": {
     "access": "public"
   },
@@ -31,5 +33,6 @@
     "type": "git",
     "url": "git+https://github.com/audiojs/voice.git",
     "directory": "packages/voice-voder"
-  }
+  },
+  "funding": "https://github.com/sponsors/audiojs"
 }

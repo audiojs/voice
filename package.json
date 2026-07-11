@@ -1,6 +1,6 @@
 {
   "name": "@audio/voice",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "sideEffects": false,
   "description": "Voice synthesis — umbrella for @audio/voice-* atoms (vocal tract, voder, glottal source)",
@@ -44,5 +44,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/audiojs/voice.git"
-  }
+  },
+  "funding": "https://github.com/sponsors/audiojs"
 }
